@@ -43,7 +43,7 @@ public class SquishedStatus {
 
         long res = 0;
 
-        if (next <= N) {
+        if (next > 0 && next <= N) {
             res = rec(i + 1, next)%MOD;
         }
 
