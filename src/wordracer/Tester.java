@@ -120,7 +120,7 @@ public class Tester {
             }
 
         } catch (FileNotFoundException e) {
-            throw new RuntimeException("Please add the words.dat to the run directory .. ");
+            throw new RuntimeException("Please add the words.dat to the tmp directory .. ");
         }
 
 

@@ -122,7 +122,7 @@ public class RecoverTheSequence {
          * @param p permutation
          * @return false, if given array is lexicographically last permutation, true otherwise
          */
-        public static boolean nextPermutation(Integer[] p) {
+        public static boolean nextPermutation(int[] p) {
             int a = p.length - 2;
             while (a >= 0 && p[a] >= p[a + 1]) {
                 a--;
